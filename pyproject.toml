@@ -8,6 +8,8 @@ version = "0.1.0"
 description = "A Bluetooth manager for Beepy."
 authors = ["Conor Flynn <beepy@randombits.host>"]
 license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/conor-f/beepy-bluetooth-manager"
 
 [tool.poetry.dependencies]
 python = "^3.8"
