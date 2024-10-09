@@ -1,10 +1,12 @@
 list:
     @just --list
 
+# TODO: Make these both work without relying on pip!
 beepy-install:
-    @echo "Running beepy install..."
-    @echo "Installed successfully!"
+    @python -m pip install beepy-bluetooth-manager
 
 beepy-remove:
-    @echo "Running beepy remove..."
-    @echo "Removed successfully!"
+    @python -m pip uninstall beepy-bluetooth-manager
+
+run:
+    @poetry run beepy-bluetooth-manager
