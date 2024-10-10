@@ -3,6 +3,7 @@ list:
 
 # TODO: Make these both work without relying on pip!
 beepy-install:
+    sudo apt install bluetooth bluez
     @python -m pip install beepy-bluetooth-manager
 
 beepy-remove:
